@@ -5,23 +5,12 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="951b408c-31d1-4773-a6d9-09b51b30ff01" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/Threads.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyThread1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MyThread2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/SeveralThread.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/Chicken.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/game/Egg.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/Data.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/Receiver.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/multithreading/Sender.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/color/CountDown.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/color/CountdownThread.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/color/ThreadColor.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/SeveralThread.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/SeveralThread.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />

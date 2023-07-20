@@ -1,3 +1,5 @@
+import color.CountDown;
+import color.CountdownThread;
 import game.Chicken;
 import game.Egg;
 import java.util.ArrayList;
@@ -9,6 +11,25 @@ import java.util.concurrent.*;
 public class Main {
     public static void main(String[] args) throws InterruptedException {
 
+
+        CountDown countdown = new CountDown();
+        CountDown countdown1 = new CountDown();
+        CountDown countdown2 = new CountDown();
+        CountDown countdown3 = new CountDown();
+
+        CountdownThread t = new CountdownThread(countdown);
+        t.setName("MyThread");
+        CountdownThread t1 = new CountdownThread(countdown1);
+        t1.setName("MyThread1");
+        CountdownThread t2 = new CountdownThread(countdown2);
+        t2.setName("MyThread2");
+        CountdownThread t3 = new CountdownThread(countdown3);
+        t.setName("SeveralThread");
+
+        t.start();
+        t1.start();
+        t2.start();
+        t3.start();
 
         MyThread myThread = new MyThread();
         myThread.setPriority(10);
